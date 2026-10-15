@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(28,69,135);
+    color: white;
+}
+.AllColleges {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: repeat(2, 1fr);
+    img{
+        grid-column: span 3;
+        grid-row: span 3;
+        height: 100%;
+        width: 100%;
+    }
+}
+.college{
+    overflow: hidden;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+.college img{
+    max-width: 5vh;
+    max-height: 5vh;
+}
+.college p {
+    margin: 0;
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+}
